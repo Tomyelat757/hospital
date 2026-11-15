@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des dossiers patient</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    
+
+    <h1>GESTION DES DOSSIERS DES PATIENTS</h1>
+    
+    <p>Cette application a pour but d'enrégistrer,de consulter et de rentre plus facile 
+    la recherche des informations médicale d'un patient dans un centre de santé></p>
+
+    <img src="patient.jpg" alt="image du carnet">
+
+    <h2>Formulaire d'enrégistrement du patient</h2>
+    <form>
+        <label>Nom du patient :</label>
+        <input type="text" placeholder="Entrer le nom" required> 
+        
+        <label>Prenom :</label>
+        <input type="text" placeholder="Entrer le Prenom" required>
+        
+        <label>Date de naissance :</label>
+        <input type="date">
+
+        <label>Sexe :</label>
+        <select>
+            <option>Choisir le sexe</option>
+            <option>Masculin</option>
+            <option>Féminin</option>
+        </select>
+        
+        <label>Téléphone :</label>
+        <input type="tel" placeholder="Entrer le numéro">
+
+        <label> Adresse :</label>
+        <input type="text" placeholder="Entrer l'adresse"required>
+
+        <label>Motif de consultation :</label>
+        <textarea rows="2" placeholder="Entrer le Motif"></textarea>
+        <button type="submit">enrégistrer le patient</button>
+
+    </form>
+
+</body>
+</html>
